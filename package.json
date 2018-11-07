@@ -1,0 +1,32 @@
+{
+  "name": "tdd-todo-app",
+  "version": "0.1.0",
+  "description": "A TDD Approach to Building a Todo API Using Node.js and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kavinda-Senarathne/TDDTodoApp.git"
+  },
+  "author": "Kavinda Senarathne",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2",
+    "sinon": "^1.17.4",
+    "sinon-mongoose": "^1.2.1",
+    "supertest": "^1.2.0"
+  }
+}
